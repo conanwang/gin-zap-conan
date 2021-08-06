@@ -13,13 +13,13 @@ Alternative logging through [zap](https://github.com/uber-go/zap). Thanks for [P
 Download and install it:
 
 ```sh
-$ go get github.com/gin-contrib/zap
+$ go get github.com/conanwang/gin-zap-conan
 ```
 
 Import it in your code:
 
 ```go
-import "github.com/gin-contrib/zap"
+import ginzap "github.com/conanwang/gin-zap-conan"
 ```
 
 ## Example
@@ -34,7 +34,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/gin-contrib/zap"
+	ginzap "github.com/conanwang/gin-zap-conan"
 	"github.com/gin-gonic/gin"
 	"go.uber.org/zap"
 )
