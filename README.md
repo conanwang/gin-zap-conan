@@ -34,7 +34,7 @@ import (
 	"fmt"
 	"time"
 
-	ginzap "github.com/conanwang/gin-zap-conan"
+	"github.com/conanwang/gin-zap-conan"
 	"github.com/gin-gonic/gin"
 	"go.uber.org/zap"
 )
